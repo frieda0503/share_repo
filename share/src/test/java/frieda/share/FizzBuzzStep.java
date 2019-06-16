@@ -1,6 +1,6 @@
 package frieda.share;
 
-import cucumber.api.CucumberOptions;
+import static org.junit.Assert.assertEquals;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -8,26 +8,25 @@ import cucumber.api.java.en.When;
 /**
  * Glue code for FizzBuzz.feature
  */
-//@RunWith(Cucumber.class)
-//@CucumberOptions(strict = true,  features = {
-//        "src/test/java/resources/",
-//    },monochrome=true)
-@CucumberOptions(features = "Feature")
 public class FizzBuzzStep {
+	private FizzBuzzServiceImpl service;
+	String result;
 
 	@Given("^Create a FizzBuzz game play$")
-	public void createAFizzBuzzGamePlay() {
+	public void create_A_FizzBuzz() {
+		service = new FizzBuzzServiceImpl();
 
 	}
 
 	@When("^I play with number (\\d+)$")
-	public void iPlayWithNumber(int number) {
+	public void play_With_Number(int number) {
+		result = service.getFizzBuzz(number);
 
 	}
 
 	@Then("^The result is Fizz$")
-	public void theResultIsFizz() {
-
+	public void result_Is_Fizz() {
+		assertEquals("Fizz", result);
 	}
 
 }
