@@ -36,5 +36,6 @@
  
  ![image](https://github.com/frieda0503/share_repo/blob/master/tdd_v_bdd_cycle-1024x538.png)
 
- [參考資料]
- https://ithelp.ithome.com.tw/articles/10102264
+ [參考資料]  
+ https://ithelp.ithome.com.tw/articles/10102264  
+ https://ithelp.ithome.com.tw/articles/10109002
