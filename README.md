@@ -10,6 +10,11 @@
   3. 不與外部（包括檔案、資料庫、網路、服務、物件、類別）直接相依
   4. 不具備邏輯
   5. 測試案例之間相依性為零
+
+* 撰寫單元測試的時機點，簡單分成三個
+  1. 外部需要使用物件，並對其執行結果有所預期時(developing)
+  2. feature的異動時(modifying)
+  3. 出現非預期執行結果時(bug fixing)
  * FizzBuzzServiceTest
 
 [BDD - Behavior-Driven Development]
