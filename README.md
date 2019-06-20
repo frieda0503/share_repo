@@ -1,4 +1,4 @@
-# share
+# TDD & BDD
 [TDD - Test-Driven Development]
 
 ![image](https://github.com/frieda0503/share_repo/blob/master/TDD-e1492712699769-300x300.png)
