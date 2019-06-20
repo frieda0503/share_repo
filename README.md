@@ -25,8 +25,8 @@
   5. 進入TDD循環
 * 開發工具：cucumber  
   1. Feature：一個feature代表一個功能，大小相當於一個user story
-  2. Scenario：一個功能的操作路徑，以驗收測試的角度來看，一個scenario就是一個驗收測試案例。因為一個feature可以包含好幾的scenario，所以一個Cucumber的.feature檔案相當於好幾個的測試案例，如果這些測試案例全部通過，就代表這個feature通過驗收條件。
-  3. Step：一個scenario的操作步驟。在Cucumber裡面scenario的標準寫法由given-when-then所組成。Given的步驟用來描述要準備那些測試環境（相當於單元測試裡面的準備test fixture），when的步驟用來描述如何執行待測程式（相當於單元測試裡面的execution），then的步驟用來描述如何驗證測試是否成功（相當於單元測試裡面的assertion）。
+  2. Scenario：一個功能的操作路徑，以驗收測試的角度來看，一個scenario就是一個驗收測試案例。因為一個feature可以包含好幾的scenario，所以一個Cucumber的.feature檔案相當於好幾個的測試案例，如果這些測試案例全部通過，就代表這個feature通過驗收條件
+  3. Step：一個scenario的操作步驟。在Cucumber裡面scenario的標準寫法由given-when-then所組成。Given的步驟用來描述要準備那些測試環境（相當於單元測試裡面的準備test fixture），when的步驟用來描述如何執行待測程式（相當於單元測試裡面的execution），then的步驟用來描述如何驗證測試是否成功（相當於單元測試裡面的assertion
 
  * FizzBuzzStep
  * FizzBuzzStepTest
